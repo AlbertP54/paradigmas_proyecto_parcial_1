@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <table border="1" style="width: 1000px;">
-        <tr>
+    <table>
+        <tr id="thead1">
             <th>Mesa 1</th>
             <th>Mesa 2</th>
             <th>Mesa 3</th>
         </tr>
 
-        <tr>
+        <tr id="tbody1">
+            <th><img src="images/billarOff.png" id="billar1" onclick="mesaBillar()"></th>
+            <th><img src="images/billarOff.png" id="billar2" onclick="mesaBillar()"></th>
+            <th><img src="images/billarOff.png" id="billar3" onclick="mesaBillar()"></th>
+        </tr>
+
+        <tr id="tbody2">
             <th>
                 Hora de inicio: <p id="hrini1"></p><br>
                 Hora de fin: <p id="hrfn1"></p><br>
@@ -34,13 +41,19 @@
             </th>
         </tr>
 
-        <tr>
+        <tr id="thead2">
             <th>Mesa 4</th>
             <th>Mesa 5</th>
             <th>Mesa 6</th>
         </tr>
 
-        <tr>
+        <tr id="tbody3">
+            <th><img src="images/billarOff.png" id="billar4" onclick="mesaBillar()"></th>
+            <th><img src="images/billarOff.png" id="billar5" onclick="mesaBillar()"></th>
+            <th><img src="images/billarOff.png" id="billar6" onclick="mesaBillar()"></th>
+        </tr>
+
+        <tr id="tbody4">
             <th>
                 Hora de inicio: <p id="hrini4"></p><br>
                 Hora de fin: <p id="hrfn4"></p><br>

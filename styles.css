@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+table {
+    border: 3px solid white;
+    width: 100%;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+}
+
+#thead1, #thead2 {
+    border: 3px solid white;
+    color: black;
+    font-size: x-large;
+    background-color: gray;
+    padding: 1px;
+}
+
+#tbody1, #tbody2, #tbody3, #tbody4 {
+    border: 3px solid white;
+    background-color: honeydew;
+    padding: 1px;
+}
+
+img {
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding: 1px;
+}
